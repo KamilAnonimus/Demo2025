@@ -1,0 +1,14 @@
+$TTL	1D
+
+@        IN SOA	hq-srv.au-team.irpo. root.au-team.irpo. (
+	                                            0	; serial
+	                                            1D	; refresh
+	                                            1H	; retry
+	                                            1W	; expire
+	                                            3H	)	; minimum
+
+@       NS  hq-srv.au-team.irpo.
+50.100	PTR	hq-srv.au-team.irpo.
+66.100	PTR	hq-cli.au-team.irpo.
+1.100	  PTR	hq-rtr.au-team.irpo.
+65.100	PTR	hq-rtr.au-team.irpo.
