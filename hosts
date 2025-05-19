@@ -1,7 +1,7 @@
 [hq]
 hq-srv ansible_host=10.0.100.10 ansible_port=2024 ansible_user=sshuser ansible_password=P@ssw0rd ansible_python_interpreter=/usr/bin/python3
 hq-rtr ansible_host=10.0.100.1 ansible_user=net_admin ansible_password=P@ssw0rd ansible_python_interpreter=/usr/bin/python3
-hq-cli ansible_host=10.0.100.66 ansible_user=sshuser ansible_password=P@ssw0rd ansible_python_interpreter=/usr/bin/python3
+hq-cli ansible_host=10.0.100.66 ansible_user=user ansible_password=P@ssw0rd ansible_python_interpreter=/usr/bin/python3
  
 [br]
 bt-rtr ansible_host=10.0.200.1 ansible_user=net_admin ansible_password=P@ssw0rd ansible_python_interpreter=/usr/bin/python3
